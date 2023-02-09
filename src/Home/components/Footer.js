@@ -1,0 +1,40 @@
+import Grid from "@mui/material/Grid";
+import Typography from "@mui/material/Typography";
+
+export default function Footer() {
+  return (
+    <Grid container justifyContent="center" spacing={2} marginTop={5}>
+      <Typography variant="footer" sx={{ fontWeight: "400" }} style={{textAlign: "center"}} gutterBottom>
+        © Copyright The Paycheck Organization.<br/>
+        All Rights Reserved
+      </Typography>
+      {/* <img src={Footerlogo} alt="" width={"240px"} style={{ marginTop: -20 }} /> */}
+      {/* <Grid item>
+        
+        <a href={config.scanLink} target="__blank">
+          <img src={esIcon} alt="" width={48} height={48} />
+        </a>
+      </Grid> */}
+      {/* <Grid item>
+        <a href="https://t.me/busdland" target="__blank">
+          <img src={tgIcon} alt="" width={48} height={48} />
+        </a>
+      </Grid>
+      <Grid item>
+        <a href="https://twitter.com/busdland" target="__blank">
+          <img src={twIcon} alt="" width={48} height={48} />
+        </a>
+      </Grid>
+      <Grid item>
+        <a href="https://dappradar.com/binance-smart-chain/high-risk/busd-land" target="__blank">
+          <img src={drIcon} alt="" width={48} height={48} />
+        </a>
+      </Grid>
+      <Grid item>
+        <a href="https://busd.land/audit" target="__blank">
+          <img src={adtIcon} alt="" width={48} height={48} />
+        </a>
+      </Grid> */}
+    </Grid>
+  );
+}
